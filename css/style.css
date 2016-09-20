@@ -1,0 +1,98 @@
+/* CSS ���� */
+html, body, h1, h2, h3, p, div, ul, li, ol, dl, dt, dd, form, span, a, img, input, select, option, button {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    border: 0 none;
+    vertical-align: baseline;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
+.listDiff{ margin-right: 0;}
+body{width:100%; font-family: "微软雅黑"; font-size:14px;  background: #e04ede; color: #fff;}
+/*part1*/
+#shoes{ width: 100%; height:747px ;background: url("../images/bg-1.jpg") no-repeat top center; padding-top: 426px;}
+#shoes .nav{ width: 990px; height: 70px; margin: 0 auto ;}
+.shoesList{ width: 990px; height: 428px; margin: 20px auto 0; background-color: #fff;  overflow: hidden; position: relative;}
+.shoesList li{ width: 48px; float: left; overflow: hidden;  transition:all 0.5s; margin-top: -1px;}
+/*part2*/
+#women{ width:990px; height:auto; margin: 0 auto 25px;}
+.women-nav1{ width:990px; height: 276px; margin:-229px auto;}
+.womenList1{ width: 1000px; margin: 251px auto 0; height:680px;}
+.womenList1 li{ width: 190px; height:330px; float: left; margin-right:10px; margin-bottom: 10px; position: relative;}
+.womenList1 .listImg{ position: absolute; z-index: 1; top: 0; left: 0;}
+.womenList1 .listHover{ position: absolute; z-index: 2; width: 190px; height: 330px; background: rgba(0,0,0,0.5); overflow: hidden; text-indent: -99em; top: 0; left: 0;}
+.womenList1 .linkFav{ position: absolute; z-index: 3; left: 9px; bottom: 13px; width: 172px; height: 33px;}
+
+.women-nav2{ width: 277px; height: auto; margin: 0 auto;}
+.women-fav{ width: 1000px; height: auto; margin: 0 auto;}
+.women-fav li{ width: 324px; height: 242px; margin-right: 9px; float: left; background: #ffffff;}
+
+.womenList2{ width: 1000px; margin: 0 auto; height:auto;}
+.womenList2 li{ width: 190px; height:355px; float: left; margin-right:10px; margin-bottom: 10px; position: relative;}
+.womenList2 .linkBorder1{ border: #e9d83f 2px solid; position: absolute; z-index: 99; width: 187px; height: 352px;}
+.womenList2 .listImg{ position: absolute; z-index: 1;}
+.womenList2 .link-img{ position: absolute; z-index: 2; width: 190px; height: 190px; left:0; top:45px; overflow: hidden; text-indent: -99em;}
+.womenList2 .link-store{ position: absolute; z-index: 2; width: 117px; height: 16px; left:9px; top:8px; overflow: hidden; text-indent: -99em;}
+.womenList2 .link-new{ position: absolute; z-index: 2; width: 190px; height: 40px; left:0px; bottom:80px; overflow: hidden; text-indent: -99em;}
+.womenList2 .link-buy{ position: absolute; z-index: 2; width: 169px; height: 36px; left: 9px; bottom:8px;overflow: hidden; text-indent: -99em;}
+.women-nav3,.women-nav4,.women-nav5,.women-nav6,.women-nav7,.women-nav8{ width: 990px; height: auto; margin: 0 auto;}
+/*men*/
+#men{ width:100%; background: #753ac8; height: auto; padding-bottom: 461px; margin:0 auto;}
+.men-nav1,.men-nav2,.men-nav3,.men-nav4,.men-nav5,.men-nav6,.men-nav7{ width: 990px; margin:0 auto; height: auto;}
+.menList1{ width: 1000px; margin: 20px auto 0; height:680px;}
+.menList1 li{ width: 190px; height:330px; float: left; margin-right:10px; margin-bottom: 10px; position: relative;}
+.menList1 .listImg{ position: absolute; z-index: 1; top: 0; left: 0;}
+.menList1 .listHover{ position: absolute; z-index: 2; width: 190px; height: 330px; background: rgba(0,0,0,0.5); overflow: hidden; text-indent: -99em; top: 0; left: 0;}
+.menList1 .linkFav{ position: absolute; z-index: 3; left: 9px; bottom: 12px; width: 172px; height: 33px;}
+
+.men-fav{ width: 1000px; height: auto; margin: 0 auto;}
+.men-fav li{ width: 324px; height: 242px; margin-right: 9px; float: left; background: #ffffff;}
+.menList2{ width: 1000px; margin: 0 auto; height:auto;}
+.menList2 li{ width: 190px; height:355px; float: left; margin-right:10px; margin-bottom: 10px; position: relative;}
+.menList2 .linkBorder1{ border: #1e5fc3 2px solid; position: absolute; z-index: 99; width: 188px; height: 353px;}
+.menList2 .listImg{ position: absolute; z-index: 1;}
+.menList2 .link-img{ position: absolute; z-index: 2; width: 190px; height: 190px; left:0; top:45px; overflow: hidden; text-indent: -99em;}
+.menList2 .link-store{ position: absolute; z-index: 2; width: 117px; height: 16px; left:9px; top:8px; overflow: hidden; text-indent: -99em;}
+.menList2 .link-new{ position: absolute; z-index: 2; width: 190px; height: 40px; left:0px; bottom:80px; overflow: hidden; text-indent: -99em;}
+.menList2 .link-buy{ position: absolute; z-index: 2; width: 169px; height: 36px; left: 9px; bottom:8px;overflow: hidden; text-indent: -99em;}
+
+/*边栏*/
+#fixedWindow{ left: 50%; top: 150px; position: fixed; width: 119px; height: auto; margin-left: 500px;}
+.fixedW-W{ width: 119px; height: 36px; background: #ff2266;}
+.fixedW-W img{ display:block; float: left; width: 25px; height: 14px; margin: 11px 2px auto 6px;}
+.fixedW-W span{ display:block; float: left; font-size: 17px; color: #fff; line-height: 36px; letter-spacing: 2px;}
+.fixedW-C{ width:115px; height: auto;background: #e23bdf; margin: 0 auto; padding-bottom: 7px;}
+.fixedW-C .fixedW-C-line1{ width: 115px; height: 22px; text-align: center;}
+.fixedW-C .fixedW-C-line1 span{ line-height: 22px;letter-spacing: 10px; color: #fff;}
+.fixedW-C .fixedW-C-line2{ text-align: center;}
+.fixedW-C .fixedW-C-line2 span{ letter-spacing: 0; color: #fff;}
+.fixedW-C .fixedW-C-border{ width: 79px; height: 2px; border-top:2px #f0a9ee dashed; margin: 0 auto;}
+.fixedW-CDiff{ background: #6e2ccb;}
+.fixedW-C-border2{ border-top:#baa5e4 1px dashed; width: 79px; height: 2px; margin: 0 auto;}
+.juhuasuan{ width: 115px; height: 28px; background: #ff2266; margin: 0 auto;}
+#fixedWindow .juhuasuan span{ font-size: 16px; letter-spacing: 2px; line-height: 28px; text-align: center; display: block;}
+#fixedWindow .top{ width: 115px; height: 41px; background: #333333; margin: 0 auto;}
+#fixedWindow .top a{ margin-left:36px; width: 49px; height: 41px;}
